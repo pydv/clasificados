@@ -1,0 +1,106 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/**********************************/
+/***Centrando imagen y texto***/
+/**********************************/
+div#wrapper{
+	padding: 5px;
+}
+
+div figure img{
+	width: 150px;
+	height: 150px;
+	vertical-align: middle;
+}
+
+div figure{
+	display: inline-block;
+}
+
+div h1{
+	display: inline-block;
+}
+
+/**********************************/
+/***Simulando Tarjetas o Cards***/
+/**********************************/
+div#container{
+	background-color: yellow;
+}
+
+div#container article.card{
+	margin: 5px;
+	width: 150px;
+	height: 150px;
+	background-color: lime;
+	display: inline-block;
+	vertical-align:top;
+	overflow: auto;
+}
+
+
+/**********************************/
+/*Simulando Tarjetas de diferentes Sizes*/
+/**********************************/
+
+.grande, .mediano, .peque{
+	margin: 5px;
+}
+
+div#difdim{
+	background-color: aqua;
+}
+
+div#difdim div.grande{
+	background-color: #f14112;
+	width: 300px;
+	height: 300px;
+	overflow: auto;
+	vertical-align: top;
+	float: left;
+}
+
+div#difdim div.mediano{
+	background-color: #f14112;
+	width: 150px;
+	height: 300px;
+	overflow: auto;
+	vertical-align: top;
+	float: left;
+}
+
+div#difdim div.peque{
+	background-color: lime;
+	display: inline-block;
+	height: 150px;
+	overflow: auto;
+	vertical-align: top;
+	width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
